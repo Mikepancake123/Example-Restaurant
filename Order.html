@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+<head>
+	<meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Restaurant</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/CSS" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="icon" type="image/icon" href="BJsLogo.png">
+</head>
+
+<body class="color">
+
+	<div id="header">
+		<img src="BJsLogo.png">
+		<p id="header" class="p">BJ's Restaurant & Brewhouse</p>
+	</div>
+
+	<br>
+	<hr class="style-seven">
+	<div class="margin">
+
+	</div>
+
+			<nav class="navbar navbar-expand-sm bg-info navbar-light sticky-top">
+				<a href="index.html" class="navbar-brand"><img src="BJsLogo.png"></a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="Desserts.html" class="nav-link">•Desserts</a>
+						</li>
+						<li class="nav-item">
+							<a href="Lunch.html" class="nav-link">•Lunch Specials</a>
+						</li>
+						<li class="nav-item">
+						<a href="Appetizers.html" class="nav-link">•Appetizers</a>
+						</li>
+						<li class="nav-item">
+							<a href="Burgers.html" class="nav-link">•Burgers</a>
+						</li>
+						<li class="nav-item">
+							<a href="Order.html" class="nav-link">•Order</a>
+						</li>	
+					</ul>
+				</div>
+			</nav>
+
+	<br>
+
+	<table class="t1">
+		<tr>
+			<td class="title">&nbsp;&nbsp;FORM</td>
+			<td colspan="2" class="title">SELECT YOUR ORDER</td>
+		</tr>
+
+		<tr>
+			<td colspan="3"><hr id="design"></td>
+		</tr>
+
+		<tr>
+			<td class="form" rowspan="9">
+				<form action="" class="form1">
+					<div class="col">
+						<input type="text" class="form-control mb-2" id="email" placeholder="First Name" name="firstname">
+					</div>
+						
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="Last Name" name="lastname">
+					</div>
+
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="Date of Birth" name="birthday">
+					</div>
+
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="Street" name="street">
+					</div>
+
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="City" name="city">
+					</div>
+
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="Zip" name="zip">
+					</div>
+
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="State" name="state">
+					</div>
+
+					<div class="col">
+						<input type="text" class="form-control mb-2" placeholder="Phone Number" name="cellno.">
+					</div>
+
+					<div class="col">
+						<select name="payment" placeholder="Payment Method" class="form-control mb-2">
+							<option value="payment">Payment Method</option>
+							<option value="cod">• Cash on Delivery</option>
+							<option value="atm">• ATM Card</option>
+						</select>
+					</div>
+
+					<div class="col">
+						<textarea class="form-control mb-2" placeholder="Extra Info." name="info" rows="3"></textarea>
+					</div>
+
+					<div class="button1">
+						<button type="reset" class="btn btn-outline-light"><svg class="bi bi-arrow-clockwise" width="1em" height="1em" viewBox=".2 .5 16 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.17 6.706a5 5 0 017.103-3.16.5.5 0 10.454-.892A6 6 0 1013.455 5.5a.5.5 0 00-.91.417 5 5 0 11-9.375.789z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M8.147.146a.5.5 0 01.707 0l2.5 2.5a.5.5 0 010 .708l-2.5 2.5a.5.5 0 11-.707-.708L10.293 3 8.147.854a.5.5 0 010-.708z" clip-rule="evenodd"/></svg> Reset</button>
+					</div>
+
+				</form>
+			</td>
+			<td class="titles">DESSERTS</td>
+			<td class="titles">LUNCH</td>
+		</tr>
+
+		<tr id="cellheight">
+			<td class="td1">
+				<img src="Monkey Bread Pizookie.JPG" id="imgsize">
+					<input type="checkbox" id="monkey-bread-pizookie">
+					<label for="monkey-bread-pizookie">Monkey Bread Pizookie</label>
+			</td>
+			<td>
+				<img src="Bac.Avo_.Tom_. Grilled Ch.__05 1_web.JPG" id="imgsize">
+					<input type="checkbox" id="b-a-t-grilled-cheese">
+					<label for="b-a-t-grilled-cheese">Bacon, Avocado and Tomato Grilled Cheese</label>
+			</td>
+		</tr>
+
+		<tr id="cellheight">
+			<td>
+				<img src="choc chunk pizookie.PNG" id="imgsize">
+					<input type="checkbox" id="choc-chunk-pizookie">
+					<label for="choc-chunk-pizookie">Choc Chunk Pizookie</label>
+			</td>
+			<td>
+				<img src="BuffaloChkGrilledChs-01_web.JPG" id="imgsize">
+					<input type="checkbox" id="buffalo-chicken-grilled-cheese">
+					<label for="buffalo-chicken-grilled-cheese">Buffalo Chicken Grilled Cheese</label>
+			</td>
+		</tr>
+
+		<tr id="cellheight">
+			<td>
+				<img src="salted caramel pizookie w-chips.JPG" id="imgsize">
+					<input type="checkbox" id="salted-caramel-pizookie">
+					<label for="salted-caramel-pizookie">Salted Caramel Pizookie</label>
+			</td>
+			<td>
+				<img src="Classic Grilled Ch.._01_WEB.JPG" id="imgsize">
+					<input type="checkbox" id="classic-grilled-cheese">
+					<label for="classic-grilled-cheese">Classic Grilled Cheese</label>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<br><br><br>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="titles">APPETIZERS</td>
+			<td class="titles">BURGERS</td>
+		</tr>
+
+		<tr id="cellheight">
+			<td>
+				<img src="Calamari-02_1.JPG" id="imgsize">
+					<input type="checkbox" id="crispy-calamari">
+					<label for="crispy-calamari">Crispy Calamari</label>
+			</td>
+			<td>
+				<img src="Brewhouse Burger__02_web.JPG" id="imgsize">
+					<input type="checkbox" id="new-brewhose-burger">
+					<label for="new-brewhose-burger">NEW Brewhouse Burger</label>
+			</td>
+		</tr>
+			
+		<tr id="cellheight">
+			<td>
+				<img src="NEW traditional wings.JPG" id="imgsize">
+					<input type="checkbox" id="traditional-wings">
+					<label for="traditional-wings">Traditional Wings</label>
+			</td>
+			<td>
+				<img src="brewhouse w-bacon.PNG" id="imgsize">
+					<input type="checkbox" id="brewhouse-burger-with-applewood">
+					<label for="brewhouse-burger-with-applewood">Brewhouse Burger with Applewood Smoked Bacon and Cheese</label>
+			</td>
+		</tr>
+			
+		<tr id="cellheight">
+			<td>
+				<img src="ChickenPotstickers.JPG" id="imgsize">
+					<input type="checkbox" id="chicken-pot-stickers">
+					<label for="chicken-pot-stickers">Chicken Pot Stickers</label>
+			</td>
+			<td>
+				<img src="black and bleu-house.PNG" id="imgsize">
+					<input type="checkbox" id="black-bleu-house-burger">
+					<label for="black-bleu-house-burger">Black and Bleu-House Burger</label>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" class="button2">
+				<button type="submit" class="btn btn-outline-light">SUBMIT YOUR ORDER  <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 15 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z" clip-rule="evenodd"/></svg></button>
+			</td>
+
+		</tr>
+	</table>
+
+	<div class="margin">
+	</div>
+
+	<div id="footer">
+		
+		<br>
+		<br>
+		
+		<hr class="style-seven">
+		
+		<p class="center">Copyright&copy; 2015 BJ's Resaturants, Inc. All rights reserved.</p>
+		<p class="center">About Us&nbsp;&nbsp;Investors&nbsp;&nbsp;Careers&nbsp;&nbsp;Gift Cards</p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

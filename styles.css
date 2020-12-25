@@ -1,0 +1,115 @@
+.color 	{
+		background-color: #FFCBA4;
+		color: black;
+		}
+
+.margin 	{
+			margin: 50px 200px 50px;
+			font-family: Calibri;
+			}
+
+#header {
+		text-align: center;
+		color: #800000;
+		}
+
+#footer {
+		text-align: center;
+		}
+
+#image2 {
+		text-align: center;
+		text-shadow: 5px 5px 5px 5px black;
+		width: 100%;
+		}
+
+#image3 {
+		width: 25%;
+		}
+
+.padding 	{
+			padding: 10px 50px;
+			}
+
+
+#p-style {
+		font-style: italic;
+		}
+
+hr.style-seven  {
+    			overflow: visible;
+    			height: 30px;
+    			border-style: solid;
+    			border-color: black;
+    			border-width: 2px 0 0 0;
+    			border-radius: 20px;
+				}
+
+hr.style-seven:before 	{
+    					display: block;
+    					content: "";
+    					height: 30px;
+    					margin-top: -31px;
+    					border-style: solid;
+    					border-color: black;
+    					border-width: 0 0 2px 0;
+    					border-radius: 20px;
+    					}
+
+.title 	{
+		font-weight: bold;
+		font-size: 30px;
+		height: 80px;
+		}
+
+.t1 	{
+		width: 100%;
+		}
+
+.form1	{
+		width: 360px;
+		}
+
+.pic 	{
+		vertical-align: top;
+		}
+
+#imgsize 	{
+			width: 150px;
+			}
+
+.titles 	{
+			height: 60px;
+			font-weight: bold;
+			font-size: 30px;
+			text-decoration: underline;
+			}
+
+#cellheight {
+			height: 75px;
+			}
+
+.form 	{
+		width: 25%;
+		vertical-align: top;
+		}
+
+.td1 	{
+		width: 500px;
+		}
+
+.button1	{
+			text-align: right;
+			}
+
+.button2	{
+			text-align: right;
+			height: 100px;
+			}
+
+#design 	{
+			height: 1px;
+			width: 98%;
+			background-color: #ffffff;
+			border: none;
+			}
